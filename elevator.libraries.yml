@@ -1,0 +1,15 @@
+theme:
+  css:
+    theme:
+      css/font-awesome.min.css: {}
+      css/animate.css: {}
+      css/style.css: {}
+      http://fonts.googleapis.com/css?family=Lobster: { type: external }
+  js:
+    js/jquery.appear.js: {}
+    js/contact_me.js: {}
+    js/jqBootstrapValidation.js: {}
+    js/modernizr.custom.js: {}
+    js/script.js: {}
+  dependencies:
+    - bootstrap/theme
