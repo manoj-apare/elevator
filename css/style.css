@@ -172,7 +172,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .menu-item a {
-    /*color: #fff;*/
+    color: #fff;
     display: block;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
@@ -956,4 +956,19 @@ and (max-width : 991px) {
     background: #FF432E;
     padding: 20px;
     color: #fff;
+}
+
+/* Custom override for drupal 8 */
+
+.toolbar-menu .menu-item {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.toolbar-menu .menu-item a {
+    color: #000;
+}
+
+section .container .row .menu-item a {
+    text-align: center;
 }

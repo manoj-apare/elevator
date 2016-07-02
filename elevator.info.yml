@@ -1,7 +1,7 @@
 name: elevator
 type: theme
 base theme: bootstrap
-description: 'A starter theme for Drupal 8.'
+description: 'A simple starter theme for Drupal 8.'
 core: '8.x'
 project: 'elevator'
 

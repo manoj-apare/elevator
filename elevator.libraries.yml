@@ -7,9 +7,11 @@ theme:
       http://fonts.googleapis.com/css?family=Lobster: { type: external }
   js:
     js/jquery.appear.js: {}
-    js/contact_me.js: {}
     js/jqBootstrapValidation.js: {}
     js/modernizr.custom.js: {}
     js/script.js: {}
   dependencies:
     - bootstrap/theme
+contact_me:
+  js:
+    js/contact_me.js: {}
